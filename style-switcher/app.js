@@ -33,11 +33,11 @@ $(document).ready(function() {
     });
 
    	$(document).on("click", "#create-overlay", function() {
-   		$(".overlay").show("slow");
+   		$(".overlay").show();
    	});
 
     $(document).on("click", ".overlay", function() {
-      $(this).hide("slow");
+      $(this).hide();
     });
 
 
