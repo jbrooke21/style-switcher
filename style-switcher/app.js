@@ -23,7 +23,7 @@ $(document).ready(function() {
     });
 
 	$(document).on("click", "#make-small", function() {
-    	$("#small-div").toggleClass("small-green");
+    	$("#small-div").addClass("small-green");
     		
     });
 
