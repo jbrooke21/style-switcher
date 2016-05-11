@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 	$(document).on("click", "#submit-custom-score", function() {
 		score = parseInt($("#custom-score").val());
-		$("#score").html(score + "points");
+		$("#score").html(score + "points!");
 	});
 
 
