@@ -12,8 +12,13 @@ $(document).ready(function() {
 
 	$(document).on("click", "#decrease-5", function() {
 		// alert("works!");
-		score = score - 5;
-		$("#score").html(score + " points");
+
+		if (score - 5 >= 0) {
+		
+			score = score - 5;
+			// score + = 5;
+			$("#score").html(score + " points");
+		}
 	});
 
 	$(document).on("click", "#submit-custom-score", function() {
